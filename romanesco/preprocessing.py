@@ -52,8 +52,8 @@ def split_corpus_into_sets(sentences, filename):
             dev.write("\n")
         for sent in sentences[dev_n:]:
             for word in sent:
-                dev.write(word)
-                dev.write(" ")
+                train.write(word)
+                train.write(" ")
             train.write("\n")
 
 
