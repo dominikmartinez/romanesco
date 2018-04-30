@@ -44,8 +44,7 @@ class Vocabulary:
 
     @property
     def size(self):
-        return 1000
-        # return len(self._id)
+        return len(self._id)
 
     def get_id(self, word: str):
         try:
